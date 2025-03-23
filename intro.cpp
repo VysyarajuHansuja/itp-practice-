@@ -139,8 +139,8 @@ int main()
 // int x=10;
 // int *p=&x;
 // cout<<p;
- int a[3]={3,0,5};
- cout<<a;//will print the adress of first element
+//int a[3]={3,0,5};
+//cout<<a;//will print the adress of first element
 
 
 }
