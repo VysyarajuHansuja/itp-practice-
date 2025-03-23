@@ -142,5 +142,16 @@ int main()
 //int a[3]={3,0,5};
 //cout<<a;//will print the adress of first element
 
+//addition of two matrix
+/*int sum =0;
+int b[3][5]={(2,4,6),(5,4,6),(3,6,8)};
+int a[3][3]={(2,3,4),(3,4,5),(3,5,6)};
+for(int i=0;i<3;i++){
+    for (int j =0;j<3;j++){
+        sum+=a[i][j]+b[i][j];
+    }
+}
+cout<<sum;*/
+
 
 }
