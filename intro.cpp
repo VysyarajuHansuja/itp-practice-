@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 int main()
 {
@@ -152,6 +153,19 @@ for(int i=0;i<3;i++){
     }
 }
 cout<<sum;*/
+
+//addition of string
+/*string a="string",b="gryff";
+ string c=a+" "+b;
+ string d=a.append(b);
+ cout<<c<<" "<<d;*/
+
+//to know length of the string we have to use length function
+/*string b="fugriiw";
+cout<<"length is "<<b.length()<<endl; 
+cout<<"length is "<<b.size();//u can also use size function,,size is alias of length */
+
+//u can excess letter fron a string by using array method as in c
 
 
 }
