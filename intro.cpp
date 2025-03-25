@@ -1,8 +1,8 @@
 #include <iostream>
 #include <string>
 using namespace std;
-int main()
-{
+//int main()
+//{
     // cout<<"hug";
     // int x = 9;
     // if(x==7) cout<<"yes"<<endl;
@@ -171,9 +171,9 @@ int main()
     // cout<<*a;
     //int b[2][2] = {{3, 4}, {4, 5}};
     //cout << *(*(b + 1) + 1);
-    int x =123,rem=0,rev=0;
-    for(int i=x;i!=0;rem=i%10,rev=rev*10+rem,i=i/10);
-    cout<<rev;
+//    int x =123,rem=0,rev=0;
+  //  for(int i=x;i!=0;rem=i%10,rev=rev*10+rem,i=i/10);
+    //cout<<rev;
     // int arr[100400];
     // for (int i=1;i<100400;++i){
     //     arr[i]=0;
@@ -186,6 +186,21 @@ int main()
     // }
     // }
     // cout<<arr[10079]<<endl;
+//}
+// int fibo(int a,int b,int n){
+//     if(n<1)  return 1;
+//     //if (a==1) return 1;
+
+//     else  {
+//         cout<<" "<<a+b;
+//         return fibo(b,a+b,--n);
+//     };
+// }
+// int main(){
+//     cout<<0<<" " <<1;
+//     int h =fibo(0,1,5);
+//     //cout<<h;
+
+// }
 
 
-}
