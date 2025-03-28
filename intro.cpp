@@ -1,4 +1,5 @@
 #include <iostream>
+#include<bits/stdc++.h>
 #include <string>
 using namespace std;
 //int main()
@@ -202,5 +203,106 @@ using namespace std;
 //     //cout<<h;
 
 // }
+
+
+//to find numbers of 1 occur in binary form of decimal number 
+// int main(){
+//     int x,cnt=0;
+//     cin >>x;
+//     while(x){
+//         if(x%2)  cnt++;
+//         x/=2;//or u can use x>>2;
+//     }
+//     cout<<cnt;
+// }
+
+
+
+// int main(){
+//     int x,cnt=0;
+//     string bin =0;
+//     cin >>x;
+//     while(x){
+//         int rem=x%2;
+//         string t="";
+//         t.push_back(rem);
+//         bin=t+bin;//bin = "ipun" -> "D"+"bin"->
+//         x>>=1;
+//     }
+//     cout<<bin<<endl;
+// }
+
+//lcm and gcd of two numbers
+// int gcd(int a,int b){
+//     if (b==0)  return 1;
+//     else   return(b,b%a);
+// }
+// int main()
+// {
+//     int x,y;
+//     cin>>x>>y;
+//     int GCD =gcd(x,y);
+//     int LCM =(x*y)/GCD;
+//     cout<<"LCM is: "<<LCM<<endl;
+//     cout<<"GCD is: "<<GCD;
+// }
+
+//binary to decimal
+// int main()
+// {
+//     int x,y=0,cnt =0;
+//     cin>>x;
+//     for(int i=x;i>0;i/=10){
+//         cnt+=1;
+//     }
+//     for(int i =x,j=0;i,j<cnt;i/=10,j++)
+//     {
+//         y+=((i%10)*pow(2,j));
+//         //cout<<j;
+//     }
+//     cout<<y;
+// }
+
+//decimal to binary
+// int main()
+// {
+//     int x,cnt=0;
+    
+//     cin>>x;
+//     for(int i=x;i>0;i/=10){
+//          cnt+=1;
+//         }
+//     char a[cnt+1];
+//     int i,j;
+//     for(i =x,j=0;i>0;i/=2,++j){
+//         if (i%2==1)   a[j]='1';
+//         else   a[j]='0';
+//     }
+//     a[j]='\0';
+//     reverse(a, a + j);
+//     cout << "Binary representation: " << a << endl;
+// }
+
+int main()
+{
+     int x,cnt=0;
+  
+     cin>>x;
+     for(int i=x;i>0;i/=10){
+          cnt+=1;
+         }
+     int a[cnt];
+     int i,j;
+     for(i =x,j=0;i>0;i/=8,++j){
+         a[j]=i%8;
+     }
+    cout<<"Octal representation: ";
+    for(i=cnt;i>=0;--i){
+        cout<<a[i];
+    }
+  
+     //cout << "Binary representation: " << a << endl;
+}
+
 
 
