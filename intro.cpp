@@ -300,8 +300,6 @@ int main()
     for(i=cnt;i>=0;--i){
         cout<<a[i];
     }
-  
-     //cout << "Binary representation: " << a << endl;
 }
 
 
